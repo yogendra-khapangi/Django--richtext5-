@@ -8,3 +8,5 @@ from .serializer import *
 class StudentModelviewset(viewsets.ModelViewSet):
     queryset = contactModel.objects.all()
     serializer_class=SudentSerializer
+
+
